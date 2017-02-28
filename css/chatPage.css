@@ -1,0 +1,172 @@
+*{
+	margin:0;
+	padding:0;
+	text-align:none;
+	color:#000;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	list-style:none;
+	outline:none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.chatting{
+	position:relative;
+	width:100%;
+	height:auto;
+}
+/*聊天窗口_顶部*/
+.chatting .chatting_top{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:36px;
+	padding-top:18px;
+	padding-bottom:18px;
+	background-color:#393a3f;
+	z-index:99;
+}
+.chatting .chatting_top .return{
+	display:inline-block;
+	margin-right:20px;
+	height:32px;
+	width:72px;
+	text-align:center;
+	border-right:1px solid #2f3035;
+	cursor:pointer;
+}
+.chatting .chatting_top .return img{
+	display:inline-block;
+	height:26px;
+	height:26px;
+	line-height:32px;
+	text-align:center;
+}
+.chatting .chatting_top .chatting_top_title{
+	height:32px;
+	font-size:25px;
+	color:#fff;
+	line-height:32px;
+}
+.chatting span.chatting_name{
+	display:inline-block;
+	position:absolute;
+	top:18px;
+	margin-left:91px;
+	width:auto;
+	height:32px;
+	font-size:32px;
+	font-weight:500;
+	line-height:32px;
+	color:#fff;
+}
+/*聊天窗口_内容*/
+.chatting .chatting_frame{
+	position:absolute;
+	top:54px;
+	width:100%;
+	height:786px;
+	background-color:#ebebeb;
+	z-index:98;
+}
+.chatting .chatting_time{
+	margin:0 auto;
+	margin-top:58px;
+	width:165px;
+	height:30px;
+	font-size:15px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	background-color:#d4d4d4;
+	border-radius:3px;
+}
+.chatting .chatting_content{
+	position:relative;
+	margin-top:90px;
+	margin-left:12px;
+	width:71.66%;/*462px8*/
+	height:auto;
+}
+.chatting .chatting_content .chatting_userHeader{
+	position:absolute;
+	left:12px;
+	display:inline-block;
+	float:left;
+	width:72px;
+	height:72px;
+}
+.chatting .chatting_content .chatting_userHeader img{
+	width:72px;
+	height:72px;
+}
+.chatting .chatting_content .chatting_content_detail{
+	float:left;
+	position:absolute;
+	margin-left:119px;
+	padding:15px 19px;
+	width:150%;
+	max-width:82.66%;
+	height:auto;
+	line-height:40px;
+	background-color:#fff;
+	border:1px solid #ececec;
+	border-radius:5px;
+}
+.chatting .chatting_content .chatting_content_detail span.triangle{
+	margin-top:21px;
+	margin-left:-30.5px;
+	width:0;
+	height:0;
+	border-top:9px solid transparent;
+	border-right:13px solid #fff;
+	border-bottom:9px solid transparent;
+}
+.chatting .chatting_content .chatting_content_detail span.input_content{
+	position:absolute;
+	left:15px;
+	font-size:21px;
+	color:#000;
+}
+/*聊天窗口_底部*/
+.chatting .chatting_buttom{
+	position:absolute;
+	top:840px;
+	width:100%;
+	height:71px;
+	background-color:#f4f4f4;
+	border-top:1px solid #d8d8d8;
+	z-index:99;
+}
+.chatting .chatting_buttom input.chatting_input{
+	display:inline-block;
+	margin-top:0.8%;
+	margin-left:21%;
+	width:58.33%;
+	height:55px;
+	font-size:50px;
+	line-height:55px;
+	border:none;
+	border-bottom:1px solid #dadada;
+	background-color:#;
+}
+.chatting .chatting_buttom input.chatting_button{
+	position:absolute;
+	display:inline-block;
+	right:4%;
+	margin-top:1%;
+	width:10%;
+	height:48px;
+	font-size:24px;
+	font-weight:600;
+	line-height:48px;
+	text-align:center
+	color:#717276;
+	background-color:#fff;
+	border:1px solid #717276;
+	border-radius:3px;
+	cursor:pointer;
+	outline:none;
+}

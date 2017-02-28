@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+	text-align:none;
+	color:#000;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	list-style:none;
+	outline:none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+/*主体*/
+.weixinPage{
+	width:100%;
+	height:auto;
+	overflow-x: hidden;
+}
+#chatPage li.chat{
+	position:relative;
+	padding:11px 0;
+	width:100%;
+	height:73px;
+	border-top:1px solid #ececec;
+}
+#chatPage li span.userHeader{
+	display:inline-block;
+	margin-left:21px;
+	width:72px;
+	height:72px;
+}
+#chatPage li span.userHeader img{
+	width:72px;
+	height:72px;
+}
+#chatPage li .chat_content{
+	display:block;
+	position:absolute;
+	margin-top:-70px;
+	margin-left:114px;
+	width:100%;
+	height:56px;
+}
+#chatPage li .chat_content .chat_content_name{
+	float:left;
+}
+#chatPage li .chat_content .chat_content_name span.user_name{
+	display:inline-block;
+	font-size:22px;
+	color:#494949;
+}
+#chatPage li .chat_content .chat_content_name span.user_content{
+	display:block;
+	margin-top:8px;
+	font-size:18px;
+	color:#8f8f8f;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:10em;
+	overflow:hidden;
+}
+#chatPage li .chat_content .chat_content_time{
+	display:inline-block;
+	float:right;
+	position:absolute;
+	top:152.14%;
+	right:0;
+	margin-top:-90px;
+	margin-right:150px;
+	font-size:16px;
+	color:#cbcbcb;
+}
+/*加载*/
+.dropload-refresh,.dropload-update,.dropload-load{
+	margin:0 auto;
+	position:absolute;
+	top:10px;
+	left:35%;
+	font-size:20px;
+	font-weight:700px;
+	color:#000;
+	line-height:20px;
+}
