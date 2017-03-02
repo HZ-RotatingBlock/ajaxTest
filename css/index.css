@@ -73,13 +73,32 @@ a{
 	color:#cbcbcb;
 }
 /*加载*/
-.dropload-refresh,.dropload-update,.dropload-load{
-	margin:0 auto;
+/*.dropload-refresh,.dropload-load,.dropload-noData{
 	position:absolute;
-	top:10px;
-	left:35%;
+	bottom:-45%;
+	left:40%;
 	font-size:20px;
 	font-weight:700px;
 	color:#000;
 	line-height:20px;
-}
+}*/
+.opacity{
+        -webkit-animation: opacity 0.3s linear;
+        animation: opacity 0.3s linear;
+    }
+    @-webkit-keyframes opacity {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }
+    @keyframes opacity {
+        0% {
+            opacity:0;
+        }
+        100% {
+            opacity:1;
+        }
+    }

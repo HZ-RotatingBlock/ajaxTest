@@ -4,61 +4,61 @@
             "pic":"icons/user7.png",
             "date":"周二",
             "user":"客户七",
-            "return":"给我来个ajax套餐！！！"
+            "return":"给我来个javascript套餐！！！"
         },
         {
             "pic":"icons/user1.png",
             "date":"周二",
             "user":"客户一",
-            "return":"给我来个ajax套餐！！！"
+            "return":"给我来个HTML套餐！！！"
         },
         {
             "pic":"icons/user2.png",
             "date":"周二",
             "user":"客户二",
-            "return":"给我来个ajax套餐！！！"
+            "return":"给我来个CSS套餐！！！"
         },
         {
             "pic":"icons/user3.png",
             "date":"周二",
-            "user":"客户三",
-            "return":"给我来个ajax套餐！！！"
+            "user":"杨叶",
+            "return":"给我来个Jquery套餐！！！"
         },
         {
             "pic":"icons/user4.png",
             "date":"周二",
-            "user":"客户四",
-            "return":"给我来个ajax套餐！！！"
+            "user":"Chris",
+            "return":"给我来个bootstrap套餐！！！"
         },
         {
             "pic":"icons/user5.png",
             "date":"周二",
             "user":"客户五",
-            "return":"给我来个ajax套餐！！！"
+            "return":"给我来个vue套餐！！！"
         },
         {
             "pic":"icons/user6.png",
             "date":"周二",
             "user":"客户六",
-            "return":"给我来个ajax套餐！！！"
+            "return":"给我来个angular套餐！！！"
         },
         {
             "pic":"icons/user7.png",
             "date":"周二",
-            "user":"客户7",
-            "return":"给我来个ajax套餐！！！"
+            "user":"车友加油",
+            "return":"给我来个react套餐！！！"
         },
         {
             "pic":"icons/user8.png",
             "date":"周二",
-            "user":"客户八",
-            "return":"给我来个ajax套餐！！！"
+            "user":"欧",
+            "return":"一个套餐都不需要"
         },
         {
             "pic":"icons/user1.png",
             "date":"周二",
-            "user":"客户一",
-            "return":"给我来个ajax套餐！！！"
+            "user":"肯德基宅急送",
+            "return":"谢谢惠顾"
         }
     ]
 }
